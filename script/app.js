@@ -21,6 +21,7 @@ var userName=prompt("Plz enter yr name");
 document.getElementById("name").innerHTML = "Your Name : "+userName;
 document.getElementById("age").innerHTML = "Your Age : "+userAge;
 
+confirm("THANK YOU FOR THE VISIT");
 
 
 
