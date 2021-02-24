@@ -24,11 +24,14 @@ if (userAge>age){
     // document.getElementById("play").innerHTML = "You Can not play Right Now You Need More  " +left+ "  years";
 }
 
-
+function render(){
 var userName=prompt("Plz enter yr name");
 
 document.getElementById("name").innerHTML = "Your Name : "+userName;
 document.getElementById("age").innerHTML = "Your Age : "+userAge;
+}
+
+render();
 
 // <<<<<<< HEAD
 // // document.getElementById("").innerHTML="";
