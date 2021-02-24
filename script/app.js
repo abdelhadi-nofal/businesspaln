@@ -1,15 +1,12 @@
 
 var age=14;
-
-
-
 var userAge=prompt("PLEASE ENTER YOUR AGE!! YOU HAVE TO BE +14 ");
-
 var left=0
 
 function myfun (userAge) {
     var left=15-parseInt(userAge);
     document.getElementById("play").innerHTML = "You Can not play Right Now You Need More  " +left+ "  years";
+    
 }
 
 
@@ -21,27 +18,18 @@ if (userAge>age){
     document.getElementById("play").innerHTML = "You Can play ";
 }else {
     alert("OPPS! SORRY YOUR AGE DOES NOT QUALIFED YOU TO PLAY THE GAME");
-    // document.getElementById("play").innerHTML = "You Can not play Right Now You Need More  " +left+ "  years";
+    document.write('<img src="https://iapdworld.org/wp-content/uploads/2019/08/Children-6-10-years-of-age.png" alt="childPic">');
 }
 
 function render(){
 var userName=prompt("Plz enter yr name");
-
 document.getElementById("name").innerHTML = "Your Name : "+userName;
 document.getElementById("age").innerHTML = "Your Age : "+userAge;
+
 }
 
 render();
 
-// <<<<<<< HEAD
-// // document.getElementById("").innerHTML="";
-// {/* <h2 id=''></h2> */}
-// // var ggg=document.getElementById('')
-
-// // document
-// =======
-// confirm("THANK YOU FOR THE VISIT");
-// >>>>>>> a72657260b2909875cfbfe958f174cbd6a3efa63
 
 
 
