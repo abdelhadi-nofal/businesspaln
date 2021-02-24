@@ -30,11 +30,15 @@ var userName=prompt("Plz enter yr name");
 document.getElementById("name").innerHTML = "Your Name : "+userName;
 document.getElementById("age").innerHTML = "Your Age : "+userAge;
 
-// document.getElementById("").innerHTML="";
-{/* <h2 id=''></h2> */}
-// var ggg=document.getElementById('')
+// <<<<<<< HEAD
+// // document.getElementById("").innerHTML="";
+// {/* <h2 id=''></h2> */}
+// // var ggg=document.getElementById('')
 
-// document
+// // document
+// =======
+// confirm("THANK YOU FOR THE VISIT");
+// >>>>>>> a72657260b2909875cfbfe958f174cbd6a3efa63
 
 
 
