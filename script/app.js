@@ -23,7 +23,7 @@ if (userAge>age){
 }
 
 var num=prompt("How Many Balls Do You Want To Play With? ");
-for (i = 1; i < num; i++) {
+for (i = 0; i < num; i++) {
     document.write(i,'<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Basketball.jpeg" alt="balls">');
   }
 
