@@ -5,14 +5,14 @@ var left=0
 
 function myfun (userAge) {
     var left=15-parseInt(userAge);
-    document.getElementById("play").innerHTML = "You Can not play Right Now You Need More  " +left+ "  years";
+    document.getElementById("play").innerHTML = "OPPS !!!!You Can not play Right Now You Need More  " +left+ "  years";
 }
 
 myfun(userAge)
 
 if (userAge>age){
     console.log("YOU CAN PLAY");
-    document.getElementById("play").innerHTML = "You Can play ";
+    document.getElementById("play").innerHTML = "You Can play And Here Is Your Balls ";
     var num=prompt("How Many Balls Do You Want To Play With? ");
 for (i = 1; i <= num; i++) {
     document.write(i,'<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Basketball.jpeg" alt="balls">');}
@@ -24,10 +24,7 @@ for (i = 1; i <= num; i++) {
     document.write('<img src="https://iapdworld.org/wp-content/uploads/2019/08/Children-6-10-years-of-age.png" alt="childPic">');
 }
 
-// var num=prompt("How Many Balls Do You Want To Play With? ");
-// for (i = 1; i <= num; i++) {
-//     document.write(i,'<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Basketball.jpeg" alt="balls">');
-//   }
+
 
 function render(){
 var userName=prompt("Plz enter yr name");
