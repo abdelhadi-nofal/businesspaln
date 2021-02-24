@@ -5,7 +5,7 @@ var left=0
 
 function myfun (userAge) {
     var left=15-parseInt(userAge);
-    document.getElementById("play").innerHTML = "OPPS !!!!You Can not play Right Now You Need More  " +left+ "  years";
+    document.getElementById("play").innerHTML = "OPPS !!!!You Can not play Right Now You Need   " +left+ " More years";
 }
 
 myfun(userAge)
