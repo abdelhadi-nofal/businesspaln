@@ -26,13 +26,13 @@ for (i = 1; i <= num; i++) {
 
 
 
-function render(){
+function secondfun(){
 var userName=prompt("Plz enter yr name");
 document.getElementById("name").innerHTML = "Your Name : "+userName;
 document.getElementById("age").innerHTML = "Your Age : "+userAge;
 }
 
-render();
+secondfun();
 
 
 
