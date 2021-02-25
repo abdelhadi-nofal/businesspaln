@@ -1,7 +1,14 @@
+var secret="YES";
+var userInput=prompt("If You do  Want To Play Type Yes");
+while (userInput.toUpperCase()!=secret){
+userInput=prompt("TRY AGAIN");    
+}
+    
+
 
 var age=14;
 var userAge=prompt("PLEASE ENTER YOUR AGE!! YOU HAVE TO BE +14 ");
-var left=0
+var left=0;
 
 function myfun (userAge) {
     var left=15-parseInt(userAge);
@@ -9,6 +16,10 @@ function myfun (userAge) {
 }
 
 myfun(userAge)
+
+
+
+
 
 if (userAge>age){
     console.log("YOU CAN PLAY");
